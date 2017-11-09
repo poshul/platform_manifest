@@ -107,7 +107,7 @@
   <project path="external/chromium" name="platform_external_chromium" remote="bitbucket" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" groups="pdk" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
-  <project path="external/clang" name="platform_external_clang" groups="pdk" remote="github" />
+  <project path="external/clang" name="platform_external_clang" groups="pdk" remote="github" revision="refs/heads/oreo-dr1-release-llvm" />
   <project path="external/cmockery" name="platform/external/cmockery" groups="pdk" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
   <project path="external/conscrypt" name="platform_external_conscrypt" groups="pdk" remote="github" />
@@ -202,8 +202,8 @@
   <project path="external/libchrome" name="platform/external/libchrome" groups="pdk" />
   <project path="external/libconstrainedcrypto" name="platform/external/libconstrainedcrypto" groups="pdk" />
   <project path="external/libcups" name="platform/external/libcups" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" />
-  <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" />
+  <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" revision="1e705dad853445419ccc8d35d82de263e91de3f3"  />
+  <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" revision="c41479a1d7de7fe6e9cfbff9be21382f7b23ace7" />
   <project path="external/libdivsufsort" name="platform/external/libdivsufsort" groups="pdk" />
   <project path="external/libdrm" name="platform/external/libdrm" groups="pdk" />
   <project path="external/libedit" name="platform/external/libedit" groups="pdk" />
@@ -244,7 +244,7 @@
   <project path="external/lisa" name="platform/external/lisa" groups="pdk" />
   <project path="external/littlemock" name="platform/external/littlemock" groups="pdk" />
   <project path="external/lld" name="platform/external/lld" groups="pdk" />
-  <project path="external/llvm" name="platform_external_llvm" groups="pdk" remote="github" />
+  <project path="external/llvm" name="platform/external/llvm" groups="pdk" revision="40629e6d4dbbaa22cf42174790b45a8075ed3971" />
   <project path="external/lmfit" name="platform/external/lmfit" groups="pdk" />
   <project path="external/ltp" name="platform/external/ltp" groups="vts,pdk" />
   <project path="external/lz4" name="platform/external/lz4" groups="pdk" />
